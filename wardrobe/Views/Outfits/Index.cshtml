@@ -11,69 +11,69 @@
 </p>
 
 <div class="row"></div>
-    @foreach (var item in Model)
-    {
-        <div class="col-md-3">
-            <div class="thumbnail">
-                <div class="caption">
-                  
-                    <div class="row">
-                       <img src="@Html.DisplayFor(modelItem => item.Accessory.Photo)" style="width:100%; height:100%; max-height:initial"/>
-                        </div>
-                    <div class="row">
-                        <img src="@Html.DisplayFor(modelItem => item.Bottom.Photo)" style="width:100%; height:100%; max-height:initial" />
-                        </div>
-                    <div class="row">
-                        <img src="@Html.DisplayFor(modelItem => item.Shoe.Photo)" style="width:100%; height:100%; max-height:initial" />
-                        </div>
-                    <div class="row">
-                        <img src="@Html.DisplayFor(modelItem => item.Top.Photo)" style="width:100%; height:100%; max-height:initial" />
-                        @Html.ActionLink("Edit", "Edit", new { id = item.OutfitID }) |
-                        @Html.ActionLink("Details", "Details", new { id = item.OutfitID }) |
-                        @Html.ActionLink("Delete", "Delete", new { id = item.OutfitID })
+@foreach (var item in Model)
+{
+    <div class="col-md-3">
+        <div class="thumbnail">
+            <div class="caption">
 
-                        </div>
-                    </div>
+                <div class="row">
+                    <img src="@Html.DisplayFor(modelItem => item.Accessory.Photo)" style="width:100%; height:100%; max-height:initial" />
+                </div>
+                <div class="row">
+                    <img src="@Html.DisplayFor(modelItem => item.Bottom.Photo)" style="width:100%; height:100%; max-height:initial" />
+                </div>
+                <div class="row">
+                    <img src="@Html.DisplayFor(modelItem => item.Shoe.Photo)" style="width:100%; height:100%; max-height:initial" />
+                </div>
+                <div class="row">
+                    <img src="@Html.DisplayFor(modelItem => item.Top.Photo)" style="width:100%; height:100%; max-height:initial" />
+                    @Html.ActionLink("Edit", "Edit", new { id = item.OutfitID }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.OutfitID }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.OutfitID })
+
                 </div>
             </div>
+        </div>
+    </div>
+}
+@*<table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Accessory.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Bottom.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Shoe.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Top.Name)
+            </th>
+            <th></th>
+        </tr>
+
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Accessory.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Bottom.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Shoe.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Top.Name)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id=item.OutfitID }) |
+                @Html.ActionLink("Details", "Details", new { id=item.OutfitID }) |
+                @Html.ActionLink("Delete", "Delete", new { id=item.OutfitID })
+            </td>
+        </tr>
     }
-                        @*<table class="table">
-                <tr>
-                    <th>
-                        @Html.DisplayNameFor(model => model.Accessory.Name)
-                    </th>
-                    <th>
-                        @Html.DisplayNameFor(model => model.Bottom.Name)
-                    </th>
-                    <th>
-                        @Html.DisplayNameFor(model => model.Shoe.Name)
-                    </th>
-                    <th>
-                        @Html.DisplayNameFor(model => model.Top.Name)
-                    </th>
-                    <th></th>
-                </tr>
 
-            @foreach (var item in Model) {
-                <tr>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Accessory.Name)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Bottom.Name)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Shoe.Name)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Top.Name)
-                    </td>
-                    <td>
-                        @Html.ActionLink("Edit", "Edit", new { id=item.OutfitID }) |
-                        @Html.ActionLink("Details", "Details", new { id=item.OutfitID }) |
-                        @Html.ActionLink("Delete", "Delete", new { id=item.OutfitID })
-                    </td>
-                </tr>
-            }
-
-            </table>*@
+    </table>*@

@@ -205,7 +205,9 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\pics\-tee-shirts-drink-moonshine-red-1.jpg" />
     <Content Include="Content\pics\0101.jpg" />
+    <Content Include="Content\pics\2291357_fpx.jpg" />
     <Content Include="Content\pics\40075058-elegant-background-wallpapers.jpg" />
     <Content Include="Content\pics\4963671-gucci-wallpaper.jpg" />
     <Content Include="Content\pics\Background-downlad-gucci-wallpapers-HD.png" />
@@ -213,11 +215,14 @@
     <Content Include="Content\pics\burberry.jpg" />
     <Content Include="Content\pics\crazy.jpg" />
     <Content Include="Content\pics\Gucci.jpg" />
+    <Content Include="Content\pics\Hat.jpg" />
+    <Content Include="Content\pics\Hublot2.jpg" />
     <Content Include="Content\pics\images.jpg" />
     <Content Include="Content\pics\imgres.jpg" />
     <Content Include="Content\pics\light.jpg" />
     <Content Include="Content\pics\LV.jpg" />
     <Content Include="Content\pics\pretty.jpg" />
+    <Content Include="Content\pics\shoe image.jpg" />
     <Content Include="Content\pics\stripe.jpg" />
     <Content Include="Content\pics\url.jpg" />
     <Content Include="favicon.ico" />
