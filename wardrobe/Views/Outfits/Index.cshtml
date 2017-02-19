@@ -4,7 +4,7 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Outfits in "MY CLOSET" </h2>
+<h2>Outfits in "MY CLOSET" </h2> <!--Outfits page is where you can use the other categories Tops,Accessories,Bottoms and Shoes to design your own custom outfit-->
 
 <p>
     @Html.ActionLink("Create New", "Create")
@@ -16,7 +16,7 @@
     <div class="col-md-3">
         <div class="thumbnail">
             <div class="caption">
-
+                <!--I have the user using the existing links that were pulled from google in the other fields -->
                 <div class="row">
                     <img src="@Html.DisplayFor(modelItem => item.Accessory.Photo)" style="width:100%; height:100%; max-height:initial" />
                 </div>

@@ -1,4 +1,5 @@
-﻿body {
+﻿/* customized body light grey gucci print into body of page */
+body {
     padding-top: 70px;
     padding-bottom: 30px;
     color:gray;
@@ -26,6 +27,7 @@ select,
 textarea {
     max-width: 280px;
 }
+/*customized thumbnails and background*/
 .thumbnail {
     
     background-color:dimgrey;
@@ -38,6 +40,13 @@ textarea {
     font-size:20px;
 
 }
+/*customized Burberry print into the Navbar*/
+.navbar-header {
+    font-size: 24px;
+    color: darkgoldenrod;
+    background-image: url('pics/burberry.jpg');
+}
+/*customized gucci background into Jumbotron*/
 .jumbotron {
      background-image: url('pics/Background-downlad-gucci-wallpapers-HD.png');
 }

@@ -207,6 +207,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\pics\-tee-shirts-drink-moonshine-red-1.jpg" />
     <Content Include="Content\pics\0101.jpg" />
+    <Content Include="Content\pics\13567395_10154607160071564_7553529727872589148_n.jpg" />
     <Content Include="Content\pics\2291357_fpx.jpg" />
     <Content Include="Content\pics\40075058-elegant-background-wallpapers.jpg" />
     <Content Include="Content\pics\4963671-gucci-wallpaper.jpg" />
@@ -225,6 +226,7 @@
     <Content Include="Content\pics\shoe image.jpg" />
     <Content Include="Content\pics\stripe.jpg" />
     <Content Include="Content\pics\url.jpg" />
+    <Content Include="Content\pics\WeCanCodeIT0147.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
