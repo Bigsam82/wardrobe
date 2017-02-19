@@ -215,6 +215,11 @@
     <Content Include="Content\pics\blah.jpg" />
     <Content Include="Content\pics\burberry.jpg" />
     <Content Include="Content\pics\crazy.jpg" />
+    <Content Include="Content\pics\details bottom.jpg" />
+    <Content Include="Content\pics\details hat.jpg" />
+    <Content Include="Content\pics\details outfit.jpg" />
+    <Content Include="Content\pics\details shirt.jpg" />
+    <Content Include="Content\pics\details shoes.jpg" />
     <Content Include="Content\pics\Gucci.jpg" />
     <Content Include="Content\pics\Hat.jpg" />
     <Content Include="Content\pics\Hublot2.jpg" />
